@@ -2,12 +2,12 @@
     <Commands>
         <Button caption="2Pnt" category="tbl2shp" class="tbl2Pnt" id="MyAddIns_addin.tbl2PntBtn" image="" message="Create Point shapefile from given XY Coordinates in a DBF. The DBF must contain XCoord and YCoord fields." tip=""><Help heading="How to use the tool">Specify a DBF file on the first dialog windows and specify a shapefile which will store the results in the second dialog window. DBF must contain XCoord and YCoord fields.</Help></Button>
         <Button caption="2Line" category="tbl2shp" class="tbl2Line" id="MyAddIns_addin.tbl2LineBtn" image="" message="Create Polyline shapefile from given XY Coordinates in a DBF. The DBF must contain XCoord and YCoord fields. Each line seperated by (X,Y) = (0,0)." tip=""><Help heading="How to use the tool">Specify a DBF file on the first dialog and specify a shapefile which will store the results in the second dialog. DBF must contain XCoord and YCoord fields. Each line seperated by (X,Y) = (0,0).</Help></Button>
-        <Button caption="2Plgone" category="tbl2shp" class="tbl2Plgone" id="MyAddIns_addin.tbl2PlgoneBtn" image="" message="Create Polygone shapefile from given XY Coordinates in a DBF. The DBF must contain XCoord and YCoord fields. Each Polygone seperated by (X,Y) = (0,0)." tip=""><Help heading="How to use the tool">Specify a DBF file on the first dialog and specify a shapefile which will store the results in the second dialog. DBF must contain XCoord and YCoord fields. Each Polygone seperated by (X,Y) = (0,0).</Help></Button>
+        <Button caption="2Plgon" category="tbl2shp" class="tbl2Plgon" id="MyAddIns_addin.tbl2PlgonBtn" image="" message="Create Polygon shapefile from given XY Coordinates in a DBF. The DBF must contain XCoord and YCoord fields. Each Polygon seperated by (X,Y) = (0,0)." tip=""><Help heading="How to use the tool">Specify a DBF file on the first dialog and specify a shapefile which will store the results in the second dialog. DBF must contain XCoord and YCoord fields. Each Polygon seperated by (X,Y) = (0,0).</Help></Button>
         </Commands>
     <Extensions>
         </Extensions>
     <Toolbars>
-        <Toolbar caption="tbl2shp" category="tbl2shp" id="MyAddIns_addin.dbf2Shapes" showInitially="true"><Items><Button refID="MyAddIns_addin.tbl2PntBtn" /><Button refID="MyAddIns_addin.tbl2LineBtn" /><Button refID="MyAddIns_addin.tbl2PlgoneBtn" /></Items></Toolbar>
+        <Toolbar caption="tbl2shp" category="tbl2shp" id="MyAddIns_addin.dbf2Shapes" showInitially="true"><Items><Button refID="MyAddIns_addin.tbl2PntBtn" /><Button refID="MyAddIns_addin.tbl2LineBtn" /><Button refID="MyAddIns_addin.tbl2PlgonBtn" /></Items></Toolbar>
         </Toolbars>
     <Menus>
         </Menus>
